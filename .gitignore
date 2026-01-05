@@ -1,6 +1,7 @@
 # Added
 *.csv
 kaggle.json
+*.db
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
