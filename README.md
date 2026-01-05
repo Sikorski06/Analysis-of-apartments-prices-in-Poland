@@ -18,6 +18,20 @@ Ten projekt rozwiązuje ten problem poprzez:
 * **Machine Learning:** Scikit-Learn (Random Forest Regressor)
 * **Explainable AI:** SHAP (Interpretacja decyzji modelu)
 * **Wizualizacja:** Matplotlib, Seaborn, Folium(Interaktywna mapa)
+* **SQL (SQLite):** Window Functions, CTE, Aggregations, Data Segmentation
+
+## Struktura Projektu
+Projekt podzielony jest na dwa główne moduły:
+
+1.  **`1_model_training.ipynb` (Machine Learning)**
+    * Czyszczenie danych i inżynieria cech.
+    * Trening modelu Random Forest (R² ~0.97).
+    * Generowanie predykcji i eksport wyników.
+    
+2.  **`2_sql_business_analysis.ipynb` (Data Analytics)**
+    * Symulacja środowiska produkcyjnego: wczytanie wyników modelu do bazy SQL.
+    * Zaawansowane analizy biznesowe przy użyciu **SQL**.
+    * Segmentacja rynku i rankingi okazji.
 
 ## Workflow
 
@@ -48,6 +62,15 @@ Dzięki analizie SHAP wiemy, co kieruje cenami:
 Wygenerowano mapę z zaznaczonymi mieszkaniami, które model uznał za największe okazje cenowe.
 
 ![Mapa Folium][(mapa_okazji.png)](https://sikorski06.github.io/Analysis-of-apartments-prices-in-Poland/mapa_okazji.html)
+
+## Analiza SQL & BI
+W module analitycznym (`2_sql_business_analysis.ipynb`) wykorzystano zaawansowane techniki SQL do wygenerowania raportów dla biznesu:
+
+* **ETL w Pythonie:** Automatyzacja procesu ładowania danych z pliku CSV do bazy SQLite.
+* **Window Functions (`RANK() OVER`):** Stworzenie rankingu najdroższych mieszkań oddzielnie dla każdego miasta (bez użycia pętli).
+* **Segmentacja (`CASE WHEN`):** Podział ofert na klasy *Budget / Standard / Premium* w celu analizy struktury rynku.
+* **Data Quality (`GROUP BY`, `HAVING`):** Eliminacja duplikatów ofert oraz filtrowanie miast o niskiej wiarygodności statystycznej (mała próba danych).
+
 
 ## Kontakt
 Projekt wykonany przez: **Piotr Sikorski** piotr.xsikorski@gmail.com
