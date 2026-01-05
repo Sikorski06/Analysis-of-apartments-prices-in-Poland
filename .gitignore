@@ -1,5 +1,6 @@
 # Added
 *.csv
+!apartments_final_with_predictions.csv
 kaggle.json
 *.db
 
