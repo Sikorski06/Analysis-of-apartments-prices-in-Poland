@@ -70,6 +70,7 @@ W module analitycznym (`2_sql_business_analysis.ipynb`) wykorzystano zaawansowan
 * **Window Functions (`RANK() OVER`):** Stworzenie rankingu najdroższych mieszkań oddzielnie dla każdego miasta (bez użycia pętli).
 * **Segmentacja (`CASE WHEN`):** Podział ofert na klasy *Budget / Standard / Premium* w celu analizy struktury rynku.
 * **Data Quality (`GROUP BY`, `HAVING`):** Eliminacja duplikatów ofert oraz filtrowanie miast o niskiej wiarygodności statystycznej (mała próba danych).
+* **Relacje (`INNER JOIN`):** (Affordability Index) – ile lat pracy potrzeba na zakup 50-metrowego mieszkania w danej lokalizacji.
 
 
 ## Kontakt
