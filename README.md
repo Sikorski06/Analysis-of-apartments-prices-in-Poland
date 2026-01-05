@@ -4,7 +4,7 @@
 > **Cel projektu:** Stworzenie modelu ML do wyceny nieruchomości w Polsce oraz narzędzia wykrywającego rynkowe "okazje" (mieszkania niedowartościowane).
 
 ![Status](https://img.shields.io/badge/Status-Completed-success)
-![Python](https://img.shields.io/badge/Python-3.10-blue)
+![Python](https://img.shields.io/badge/Python-3.13.9-blue)
 ![ML](https://img.shields.io/badge/Model-RandomForest-green)
 
 ## Business Case
@@ -47,7 +47,7 @@ Dzięki analizie SHAP wiemy, co kieruje cenami:
 ## Mapa Okazji
 Wygenerowano mapę z zaznaczonymi mieszkaniami, które model uznał za największe okazje cenowe.
 
-![Mapa Folium][(mapa_okazji.png)](https://sikorski06.github.io/Analysis-of-apartments-prices-in-Poland/)
+![Mapa Folium][(mapa_okazji.png)](https://sikorski06.github.io/Analysis-of-apartments-prices-in-Poland/mapa_okazji.html)
 
-## 📬 Kontakt
+## Kontakt
 Projekt wykonany przez: **Piotr Sikorski** piotr.xsikorski@gmail.com
