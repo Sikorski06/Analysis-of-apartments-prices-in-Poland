@@ -19,6 +19,7 @@ Ten projekt rozwiązuje ten problem poprzez:
 * **Explainable AI:** SHAP (Interpretacja decyzji modelu)
 * **Wizualizacja:** Matplotlib, Seaborn, Folium(Interaktywna mapa)
 * **SQL (SQLite):** Window Functions, CTE, Aggregations, Data Segmentation
+* **PowerBI**
 
 ## Struktura Projektu
 Projekt podzielony jest na dwa główne moduły:
