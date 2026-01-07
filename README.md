@@ -72,6 +72,10 @@ W module analitycznym (`2_sql_business_analysis.ipynb`) wykorzystano zaawansowan
 * **Data Quality (`GROUP BY`, `HAVING`):** Eliminacja duplikatów ofert oraz filtrowanie miast o niskiej wiarygodności statystycznej (mała próba danych).
 * **Relacje (`INNER JOIN`):** (Affordability Index) – ile lat pracy potrzeba na zakup 50-metrowego mieszkania w danej lokalizacji.
 
+## Analiza PowerBI
+
+![BI Dashboard](Podgląd_analizy_BI.png)
+
 
 ## Kontakt
 Projekt wykonany przez: **Piotr Sikorski** piotr.xsikorski@gmail.com
